@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e64e58</color>
+    <color name="colorPrimaryDark">#dc454f  </color>
+    <color name="colorAccent">#2E2E2E</color>
+    <color name="transparent">#00000000</color>
+
+
+    <color name="colorBlue_06">#F80362B4</color>
+    <color name="colorBlue_04">#F73295EC</color>
+    <color name="colorBlue_02">#F767B5FA</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGray_03">#707070</color>
+    <color name="colorGray_09">#181818</color>
+    <color name="colorGray_08">#1F1F1F</color>
+    <color name="colorGray_07">#252525</color>
+    <color name="colorGray_06">#2E2E2E</color>
+    <color name="material">#fffafafa</color>
+
+    <color name="tab_checked">#15dcfd</color>
+    <color name="tab_unchecked">#a7a9a8</color>
+    <color name="color_search">#7ED5D6D5</color>
+    <color name="color_bg_pdf">#DFDFDF</color>
+    <color name="color_state_click">#3495A5A6</color>
+
+    <color name="color_bg_ok">#70008577</color>
+    <color name="color_empty">#95A5A6</color>
+    <color name="color_line">#A1FAFAFA</color>
+    <color name="color_gray_005">#3C3C3C</color>
+    <color name="color_gray_0005">#7E3C3C3C</color>
+    <color name="color_red_09">#F88A0101</color>
+
+    <color name="button_normal">#00000000</color>
+    <color name="colorAccentTrans">#80ffa000</color>
+    <color name="colorDarkTrans">#80e64e58</color>
+    <color name="link_bg">#2200ffff</color>
+    <color name="muPDFReaderView_bg">#ffffff</color>
+    <color name="paint_color">#0000FF</color>
+    <color name="rv_item_line_bg">#eeeeee</color>
+    <color name="rv_item_line_tv">#000000</color>
+    <color name="search_bg">#440000ff</color>
+    <color name="text_normal">#fafafa</color>
+    <color name="text_normalTrans">#80fafafa</color>
+
+
+</resources>

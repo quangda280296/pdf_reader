@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="32dp"
+    android:gravity="center"
+    android:background="@color/material">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.pdfreader.editor.font.BoldCustomTextview
+            android:id="@+id/font_UTMAvo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/title_rate_us"
+            android:textColor="@color/colorGray_09"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.pdfreader.editor.font.CustomTextView
+            android:id="@+id/font_UTMAvo3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:text="@string/message_rate"
+            android:textColor="@color/colorGray_09"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/font_UTMAvo2" />
+
+        <ImageView
+            android:id="@+id/star"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_star"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/font_UTMAvo3" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="4dp"
+            android:src="@drawable/ic_star"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+            app:layout_constraintStart_toEndOf="@+id/imageView6"
+            app:layout_constraintTop_toTopOf="@+id/imageView6" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="4dp"
+            android:src="@drawable/ic_star"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+            app:layout_constraintEnd_toStartOf="@+id/imageView5"
+            app:layout_constraintTop_toTopOf="@+id/imageView5" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="4dp"
+            android:src="@drawable/ic_star"
+            app:layout_constraintBottom_toBottomOf="@+id/star"
+            app:layout_constraintStart_toEndOf="@+id/star"
+            app:layout_constraintTop_toTopOf="@+id/star" />
+
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="4dp"
+            android:src="@drawable/ic_star"
+            app:layout_constraintBottom_toBottomOf="@+id/star"
+            app:layout_constraintEnd_toStartOf="@+id/star"
+            app:layout_constraintTop_toTopOf="@+id/star" />
+
+        <com.pdfreader.editor.font.CustomTextView
+            android:id="@+id/btn_cancel"
+            android:layout_width="74dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/button_state_click_cancel"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@color/colorGray_09"
+            android:textSize="@dimen/font_size_small"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btn_ok"
+            app:layout_constraintTop_toBottomOf="@+id/star">
+
+        </com.pdfreader.editor.font.CustomTextView>
+
+        <com.pdfreader.editor.font.CustomTextView
+            android:id="@+id/btn_ok"
+            android:layout_width="74dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/button_state_click_ok"
+            android:gravity="center"
+            android:text="@string/ok"
+            android:textColor="@color/colorBlue_06"
+            android:textSize="@dimen/font_size_small"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/star">
+
+        </com.pdfreader.editor.font.CustomTextView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>
